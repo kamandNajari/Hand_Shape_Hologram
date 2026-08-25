@@ -12,15 +12,11 @@ An interactive computer vision project that tracks both hands via webcam and ren
 - Holographic color effect blended with the real camera background
 - Extra animated overlay patterns (checkerboard, shifting icons)
 
-## 🎥 Demo
-
-*(add a screenshot or GIF here)*
 
 ## 📦 Requirements
 
 - Python 3.9 or newer
 - A working webcam
-- 
 ## 🚀 Installation
 
 ```bash
@@ -59,3 +55,13 @@ Show both hands to the camera to see the polygon appear between them.
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+## 🔮 Roadmap
+
+Planned improvements for future versions:
+
+- ✨ Neon glow effect on polygon edges
+- 🎨 Expanded holographic color spectrum with smoother blending
+- 🔺 Floating particle effects (small triangles/shapes drifting around the polygon)
+- 📊 Live info panel showing hand detection status, distance, and polygon side count
+- 🖐️ Support for single-hand gesture control (open/close to rotate)
+- 🎬 Recorded demo GIF
