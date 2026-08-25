@@ -20,13 +20,17 @@ An interactive computer vision project that tracks both hands via webcam and ren
 
 - Python 3.9 or newer
 - A working webcam
-
+- 
 ## 🚀 Installation
 
 ```bash
 git clone https://github.com/kamandNajari/Hand_Shape_Hologram.git
 cd Hand_Shape_Hologram
 pip install -r requirements.txt
+```
+
+The hand tracking model is downloaded automatically on first run — no manual setup needed.
+
 ## ▶️ Usage
 
 ```bash
@@ -34,6 +38,7 @@ python hand_shape_hologram.py
 ```
 
 Show both hands to the camera to see the polygon appear between them.
+
 
 ## 🎮 Controls
 
