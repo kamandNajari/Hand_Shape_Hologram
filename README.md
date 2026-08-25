@@ -1,42 +1,56 @@
 # Hand Shape Hologram
 
-An interactive computer vision project that tracks both hands via webcam and renders a dynamic, holographic-colored polygon between them, controllable through hand movement and gesture drawing.
+An interactive computer vision project that tracks both hands via webcam and renders a dynamic, holographic-colored polygon between them — controllable through hand movement and live gesture drawing.
 
-## How It Works
+## ✨ Features
 
-Detects both hands in real time using MediaPipe Hand Landmarker. Draws a polygon anchored between the two palm centers. Distance between hands controls the polygon size. Angle between hands controls the polygon rotation. The shape can be a random irregular polygon, or a custom shape drawn live with your index finger. Inside the shape, a holographic color effect blends with the real camera background, with optional overlay patterns.
+- Real-time tracking of both hands using **MediaPipe Hand Landmarker**
+- A polygon rendered between the two palm centers
+- **Distance** between hands controls the polygon's size
+- **Angle** between hands controls the polygon's rotation
+- Draw your own custom shape live with your index finger
+- Holographic color effect blended with the real camera background
+- Extra animated overlay patterns (checkerboard, shifting icons)
 
-## Requirements
+## 🎥 Demo
 
-Python 3.9 or newer. A working webcam.
+*(add a screenshot or GIF here)*
 
-## Installation
+## 📦 Requirements
 
+- Python 3.9 or newer
+- A working webcam
+
+## 🚀 Installation
+
+```bash
 git clone https://github.com/kamandNajari/Hand_Shape_Hologram.git
 cd Hand_Shape_Hologram
 pip install -r requirements.txt
+## ▶️ Usage
 
-The hand tracking model file is downloaded automatically on first run, no manual setup needed.
-
-## Usage
-
+```bash
 python hand_shape_hologram.py
+```
 
 Show both hands to the camera to see the polygon appear between them.
 
-## Controls
+## 🎮 Controls
 
-Key d: Start drawing mode, trace a custom shape in the air with your index finger
-Key f: Finish drawing, the traced shape replaces the current polygon
-Key r: Generate a new random irregular polygon
-Key p: Cycle through visual modes, hologram only, then colorful checkerboard, then animated random shapes
-Key q: Quit the application
+| Key | Action |
+|-----|--------|
+| `d` | Start drawing mode — trace a custom shape in the air with your index finger |
+| `f` | Finish drawing — the traced shape replaces the current polygon |
+| `r` | Generate a new random irregular polygon |
+| `p` | Cycle visual modes — hologram only → colorful checkerboard → animated random shapes |
+| `q` | Quit the application |
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-OpenCV for video capture and rendering. MediaPipe for hand landmark detection. NumPy for numerical operations.
+- [OpenCV](https://opencv.org/) — video capture and rendering
+- [MediaPipe](https://developers.google.com/mediapipe) — hand landmark detection
+- [NumPy](https://numpy.org/) — numerical operations for shape and color effects
 
-## License
+## 📄 License
 
-MIT
-
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
